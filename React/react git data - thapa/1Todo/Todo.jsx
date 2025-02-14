@@ -12,10 +12,10 @@ export const Todo = () => {
   const [task, setTask] = useState(() => getLocalStorageTodoData());
 
   // ! setInputValue({ id: "", content: "", checked: false }); SO HERE got whole object
-                  // {  id: "xyz",
-                  //    content: "xyz", 
-                  //    checked: false 
-                  //  }
+  // {  id: "xyz",
+  //    content: "xyz",
+  //    checked: false
+  //  }
   const handleFormSubmit = (inputValue) => {
     const { id, content, checked } = inputValue;
 

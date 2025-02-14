@@ -57,6 +57,7 @@ export const App = () => {
 
   const handleChange = (e) => {
     console.log(e);
+    console.log(e.target)
     setShow(e.target.checked);
   };
   return (
